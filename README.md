@@ -1,12 +1,12 @@
 this project is about making a clone of an airbnb app simulating real world production environment. this project will take us on a journey of full-stack development
 
-#TEAM ROLES
+#Team Roles
 Backend developer: engineers and stabilizes the product
 software architect: designs a high-level software architecture
 DevOps engineer: facilitates cooperation between development and operations teams
-#TECHNOLOGY STACK
+#Technology Stack
 some technologies to be used are Django to manage the database and postgresql as database.
-#ENTITIES
+#Entities
 
 1. Users
 
@@ -127,7 +127,7 @@ Sensitive data, including passwords and payment information, is encrypted and st
 All inputs from users are validated and sanitized to prevent common security vulnerabilities such as SQL injection or cross-site scripting (XSS).
 
 Implementing these measures ensures that user data is protected, transactions remain secure, and the platform operates reliably and safely for all participants.
-#CI/CD PIPELINE
+#CI/CD Pipeline
 Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of testing, building, and deploying code. They ensure that every change made to the codebase is automatically tested and validated before being released, reducing errors and speeding up development.
 
 For the Airbnb Clone project, implementing a CI/CD pipeline helps maintain a reliable backend API and front-end application, enabling rapid iterations while keeping the platform stable.
