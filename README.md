@@ -6,7 +6,7 @@ software architect: designs a high-level software architecture
 DevOps engineer: facilitates cooperation between development and operations teams
 #Technology Stack
 some technologies to be used are Django to manage the database and postgresql as database.
-#Entities
+#Database Design
 
 1. Users
 
@@ -82,7 +82,7 @@ A Booking belongs to one User (guest) and one Property.
 A Booking can have one associated Payment (one-to-one).
 
 A Property can have multiple Reviews, and each Review is written by one User.
-#FEATURE BREAKDOWN
+#Feature Breakdown
 
 1. User Management
 
@@ -103,7 +103,7 @@ Guests can leave ratings and comments on properties they have stayed in. This fe
 5. Payment Processing
 
 Payments are securely handled for each booking, supporting multiple payment methods and tracking payment status (completed, pending, or failed). This ensures hosts are compensated and guests can book properties with confidence.
-#API SECURITY
+#API Security
 Ensuring the security of backend APIs is critical in a web application like the Airbnb Clone, where sensitive user information and payment data are handled. The following key security measures will be implemented:
 
 1. Authentication
